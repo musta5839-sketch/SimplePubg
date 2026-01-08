@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:name=".SimplePubgApp"
+        android:allowBackup="true"
+        android:label="Simple PUBG"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SimplePUBG"
+        android:enableOnBackInvokedCallback="true">
+        
+        <activity
+            android:name=".ui.MainMenuActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SimplePUBG">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.GameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SimplePUBG" />
+            
+        <service android:name=".audio.BackgroundMusicService" android:exported="false" />
+    </application>
+</manifest>

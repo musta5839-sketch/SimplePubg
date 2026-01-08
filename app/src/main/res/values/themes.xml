@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.SimplePUBG" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#FF121216</item>
+        <item name="android:navigationBarColor">#FF121216</item>
+    </style>
+</resources>
