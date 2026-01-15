@@ -3,6 +3,7 @@ package com.example.bouncegame
 import android.app.Activity
 import android.os.Bundle
 import android.view.WindowManager
+import com.aaa.engine.view.GameView
 
 class MainActivity : Activity() {
 
@@ -10,18 +11,10 @@ class MainActivity : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+
         gameView = GameView(this)
         setContentView(gameView)
-    }
-
-    override fun onResume() {
-        super.onResume()
-        gameView.resume()
-    }
-
-    override fun onPause() {
-        super.onPause()
-        gameView.pause()
     }
 }

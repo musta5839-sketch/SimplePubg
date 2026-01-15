@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="splash_bg">#FF121216</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Bounce Game</string>
+    <style name="Theme.SimplePUBG" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#FF121216</item>
+        <item name="android:navigationBarColor">#FF121216</item>
+    </style>
+</resources>

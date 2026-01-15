@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bouncegame"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <application
+11-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:2:5-27:19
+12        android:name="com.example.bouncegame.SimplePubgApp"
+12-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:3:9-38
+13        android:allowBackup="true"
+13-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:4:9-35
+14        android:debuggable="true"
+15        android:enableOnBackInvokedCallback="true"
+15-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:8:9-51
+16        android:extractNativeLibs="false"
+17        android:label="Simple PUBG"
+17-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:5:9-36
+18        android:supportsRtl="true"
+18-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:6:9-35
+19        android:theme="@style/Theme.SimplePUBG" >
+19-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:7:9-48
+20        <activity
+20-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:10:9-18:20
+21            android:name="com.example.bouncegame.ui.MainMenuActivity"
+21-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:11:13-48
+22            android:exported="true"
+22-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:12:13-36
+23            android:theme="@style/Theme.SimplePUBG" >
+23-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:13:13-52
+24            <intent-filter>
+24-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:14:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:15:17-68
+25-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:16:17-76
+27-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:20:9-24:55
+31            android:name="com.example.bouncegame.ui.GameActivity"
+31-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:21:13-44
+32            android:exported="false"
+32-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:22:13-37
+33            android:screenOrientation="portrait"
+33-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:23:13-49
+34            android:theme="@style/Theme.SimplePUBG" />
+34-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:24:13-52
+35
+36        <service
+36-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:26:9-90
+37            android:name="com.example.bouncegame.audio.BackgroundMusicService"
+37-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:26:18-62
+38            android:exported="false" />
+38-->/data/data/com.termux/files/home/MyGame/app/src/main/AndroidManifest.xml:26:63-87
+39    </application>
+40
+41</manifest>

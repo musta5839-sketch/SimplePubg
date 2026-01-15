@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bouncegame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34" />
+
+    <application
+        android:name="com.example.bouncegame.SimplePubgApp"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:enableOnBackInvokedCallback="true"
+        android:extractNativeLibs="false"
+        android:label="Simple PUBG"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SimplePUBG" >
+        <activity
+            android:name="com.example.bouncegame.ui.MainMenuActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SimplePUBG" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.bouncegame.ui.GameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.SimplePUBG" />
+
+        <service
+            android:name="com.example.bouncegame.audio.BackgroundMusicService"
+            android:exported="false" />
+    </application>
+
+</manifest>

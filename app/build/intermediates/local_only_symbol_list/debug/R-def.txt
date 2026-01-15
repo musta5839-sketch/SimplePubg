@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+color purple_200
+color splash_bg
+color white
+string app_name
+style Theme.SimplePUBG

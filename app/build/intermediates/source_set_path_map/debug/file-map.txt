@@ -1,0 +1,7 @@
+com.example.bouncegame.app-pngs-0 /data/data/com.termux/files/home/MyGame/app/build/generated/res/pngs/debug
+com.example.bouncegame.app-resValues-1 /data/data/com.termux/files/home/MyGame/app/build/generated/res/resValues/debug
+com.example.bouncegame.app-packageDebugResources-2 /data/data/com.termux/files/home/MyGame/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.bouncegame.app-packageDebugResources-3 /data/data/com.termux/files/home/MyGame/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.bouncegame.app-merged_res-4 /data/data/com.termux/files/home/MyGame/app/build/intermediates/merged_res/debug
+com.example.bouncegame.app-debug-5 /data/data/com.termux/files/home/MyGame/app/src/debug/res
+com.example.bouncegame.app-main-6 /data/data/com.termux/files/home/MyGame/app/src/main/res

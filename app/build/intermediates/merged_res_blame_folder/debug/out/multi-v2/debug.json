@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.bouncegame.app-merged_res-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/data/data/com.termux/files/home/MyGame/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "2,1,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "62,16,109",
+                        "endColumns": "46,45,41",
+                        "endOffsets": "104,57,146"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,102,148",
+                        "endColumns": "46,45,41",
+                        "endOffsets": "97,143,185"
+                    }
+                },
+                {
+                    "source": "/data/data/com.termux/files/home/MyGame/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "0",
+                        "startColumns": "11",
+                        "startOffsets": "11",
+                        "endColumns": "55",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "190",
+                        "endColumns": "48",
+                        "endOffsets": "234"
+                    }
+                },
+                {
+                    "source": "/data/data/com.termux/files/home/MyGame/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "239",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "455"
+                    }
+                }
+            ]
+        }
+    ]
+}
